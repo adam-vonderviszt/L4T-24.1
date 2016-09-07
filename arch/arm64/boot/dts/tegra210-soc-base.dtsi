@@ -1300,7 +1300,7 @@
 		interrupts = <0 38 0x04>;
 		iommus = <&smmu TEGRA_SWGROUP_PPCS>;
 		status = "disabled";
-		clock-frequency = <400000>;
+		clock-frequency = <50000>;
 	};
 
 	i2c2: i2c@7000c400 {
